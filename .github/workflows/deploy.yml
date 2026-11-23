@@ -1,12 +1,9 @@
-
 name: Deploy Portfolio to Vercel
 
 on:
   push:
     branches:
       - main
-
-  workflow_dispatch:
 
 jobs:
   deploy:
